@@ -1,6 +1,22 @@
-.box {
+.box-block {
   width: 200px;
   height: 200px;
   background-color: tomato;
   display: inline-block;
+}
+.box-block:first-child {
+  display: block;
+}
+
+.box-margin {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  display: inline-block;
+}
+.box-margin:first-child {
+  float: left;
+}
+.box-margin:last-child {
+  float: right;
 }
