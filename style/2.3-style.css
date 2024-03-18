@@ -1,0 +1,13 @@
+.father {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  color: white;
+  font-size: 36px;
+}
