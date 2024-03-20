@@ -1,0 +1,21 @@
+.father {
+  display: flex;
+  height: 100vh;
+  row-gap: 10px;
+  column-gap: 30px;
+  justify-content: center;
+  flex-flow: row wrap;
+  /* align-items: flex-start; */
+  align-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
