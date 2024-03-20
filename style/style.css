@@ -1,14 +1,12 @@
 .father {
   display: flex;
   height: 100vh;
-  gap: 10px;
-  justify-content: flex-start;
+  row-gap: 10px;
+  column-gap: 30px;
+  justify-content: center;
   flex-flow: row wrap;
-  /*
-  flex-direction: row;
-  flex-wrap: wrap;
-  이걸 한줄로 써버린거임
-  */
+  /* align-items: flex-start; */
+  align-content: center;
 }
 
 .box {
