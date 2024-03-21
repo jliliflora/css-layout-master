@@ -5,17 +5,30 @@
   column-gap: 30px;
   justify-content: center;
   flex-flow: row wrap;
-  /* align-items: flex-start; */
-  align-content: center;
+  align-items: center;
+  /* align-content: center; */
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   background-color: tomato;
   color: white;
   font-size: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* .box:nth-child(3) {
+  background-color: blueviolet;
+  order: 2;
+}
+.box:nth-child(6) {
+  background-color: aqua;
+  order: -1;
+} */
+
+.box:first-child {
+  align-self: flex-start;
 }
